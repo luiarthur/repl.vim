@@ -112,14 +112,16 @@ function! s:ReplSendToWindow(type, direction)
 
   let end_char = get({'line': ""}, a:type, "\n")
 
-
   if has('nvim')  " NeoVIM >= 0.5
     exec "wincmd " . a:direction
     call chansend(b:terminal_job_id, @" . end_char)
-    wincmd p
   else  " regular VIM >= 8.2
     call term_sendkeys(t:term_buf_nbr, @" . end_char)
+    exec "wincmd " . a:direction
   endif
+
+  normal! G
+  wincmd p
 endfunction
 
 " Send text the window on the right.
