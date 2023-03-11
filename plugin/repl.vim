@@ -22,6 +22,10 @@ else
   let g:os = 'other'
 end
 
+if has('nvim')
+  au TermClose * :q  " close terminal without showing 'Process exited'.
+endif
+
 " Starts a terminal (possibly with a REPL if extension is recognized), below
 " the script.
 function! s:ReplStartTermBelow()
