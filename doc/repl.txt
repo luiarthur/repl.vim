@@ -5,8 +5,8 @@
     |_|  \___| .__/|_(_)_/ |_|_| |_| |_|   ~
              |_|                           ~
 
-*repl.vim*  
-Launching REPL from (Neo)VIM.
+> *repl.vim*
+- Launching REPL from (Neo)VIM.
 
 
 ### Dependencies
