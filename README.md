@@ -10,6 +10,7 @@
 - Launching REPL from (Neo)VIM.
 - Author: Arthur Lui
 - Date: 11 March 2023
+- Repo: https://github.com/luiarthur/repl.vim
 
 ### Dependencies
 > *repl-dependencies*
