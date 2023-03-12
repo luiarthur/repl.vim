@@ -1,0 +1,33 @@
+*repl*  A REPL plugin for (Neo)VIM.
+                _       _
+ _ __ ___ _ __ | |_   _(_)_ __ ___   ~
+| '__/ _ \ '_ \| \ \ / / | '_ ` _ \  ~
+| | |  __/ |_) | |\ V /| | | | | | | ~
+|_|  \___| .__/|_(_)_/ |_|_| |_| |_| ~
+         |_|                         ~
+ 
+===========================================================================
+Contents                                                           *repl-toc*
+
+0. System Requirements
+1. Installation
+2. Basic Usage
+2. Navigation
+4. Dependencies
+5. Supported Languages
+
+===========================================================================
+System Requirements                                *repl-system-requirements*
+
+- NeoVIM >= 0.5 or VIM >= 8.2
+
+===========================================================================
+Installation                                                    repl-install*
+
+
+If using the `plug.vim` plugin manager, add `Plug luiarthur/repl.vim` to the
+correct location. Similar for other vim plugin managers. If not using a plugin
+manager, just copy `plugin/repl.vim` to `~/.vim/plugin/` (for vim users). If
+using NeoVIM, a plugin manager is recommended.
+
+
