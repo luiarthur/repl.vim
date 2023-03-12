@@ -1,32 +1,39 @@
-# repl.vim
-Launching REPL from VIM/NeoVIM.
+*repl.vim*
 
-```
-                _       _
- _ __ ___ _ __ | |_   _(_)_ __ ___
-| '__/ _ \ '_ \| \ \ / / | '_ ` _ \
-| | |  __/ |_) | |\ V /| | | | | | |
-|_|  \___| .__/|_(_)_/ |_|_| |_| |_|
-         |_|
-```
+Launching REPL from (Neo)VIM.
 
-## Dependencies
+>                   _       _              ~
+>    _ __ ___ _ __ | |_   _(_)_ __ ___     ~
+>   | '__/ _ \ '_ \| \ \ / / | '_ ` _ \    ~
+>   | | |  __/ |_) | |\ V /| | | | | | |   ~
+>   |_|  \___| .__/|_(_)_/ |_|_| |_| |_|   ~
+>            |_|                           ~
+
+### Dependencies
+> *repl-dependencies*
+
 - NeoVIM >= 0.5 or VIM >= 8.2
 
-# Installation
+### Installation
+> *repl-installation*
+
 If using the `plug.vim` plugin manager, add `Plug luiarthur/repl.vim` to the
 correct location. Similar for other vim plugin managers. If not using a plugin
 manager, just copy `plugin/repl.vim` to `~/.vim/plugin/` (for vim users). If
 using NeoVIM, a plugin manager is recommended.
 
-## Usage
-1. Open a file in NeoVIM or VIM.
+### Usage
+> *repl-usage*
+
+1. Open a file in Neo(VIM).
 2. In `Normal` mode, type `Ctrl-k`. If the file extension is of a supported
    language (see below), then an appropriate REPL will be spawned in a separate
    buffer in the lower region of the current tab.
 3. Navigation (see below)
 
-## Navigation
+### Navigation
+> *repl-nav*
+
 From a (Neo)VIM buffer (file), you can do the following in `Normal` mode.
 
 Action                                   | Command
@@ -57,12 +64,14 @@ Default key bindings will be used if either `let g:repl_default_key_bindings = 1
 is defined in `init.vim`/`vimrc` (NeoVIM/VIM) OR `g:repl_default_key_bindings`
 is not defined.
 
-## Supported Languages
+### Supported Languages
+> *repl-languages*
+
 - Julia (`*.jl`)
 - Python (`*.py`)
 - R (`*.R`)
 
-## About
-Inspired by [vim-sendtowindow][1].
+### About
+> *repl-about*
+Inspired by `https://github.com/karoliskoncevicius/vim-sendtowindow`.
 
-[1]: https://github.com/karoliskoncevicius/vim-sendtowindow.
