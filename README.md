@@ -1,6 +1,4 @@
-*repl.vim*
-
-Launching REPL from (Neo)VIM.
+*repl.vim*      Launching REPL from (Neo)VIM.
 
                     _       _              ~
      _ __ ___ _ __ | |_   _(_)_ __ ___     ~
