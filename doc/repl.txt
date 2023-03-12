@@ -83,3 +83,4 @@ Supported Languages                                          *repl-languages*
 Miscellaneous                                                     *repl-misc*
 
 Inspired by `https://github.com/karoliskoncevicius/vim-sendtowindow`.
+
