@@ -28,7 +28,7 @@ using NeoVIM, a plugin manager is recommended.
 ### Usage
 > *repl-usage*
 
-1. Open a file in Neo(VIM).
+1. Open a file in (Neo)VIM.
 2. In `Normal` mode, type `Ctrl-k`. If the file extension is of a supported
    language (see below), then an appropriate REPL will be spawned in a separate
    buffer in the lower region of the current tab.
