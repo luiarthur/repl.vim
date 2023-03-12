@@ -1,3 +1,5 @@
+> *repl.vim*
+
                     _       _              ~
      _ __ ___ _ __ | |_   _(_)_ __ ___     ~
     | '__/ _ \ '_ \| \ \ / / | '_ ` _ \    ~
@@ -5,9 +7,9 @@
     |_|  \___| .__/|_(_)_/ |_|_| |_| |_|   ~
              |_|                           ~
 
-> *repl.vim*
 - Launching REPL from (Neo)VIM.
-
+- Author: Arthur Lui
+- Date: 11 March 2023
 
 ### Dependencies
 > *repl-dependencies*
