@@ -2,12 +2,12 @@
 
 Launching REPL from (Neo)VIM.
 
->                   _       _              ~
->    _ __ ___ _ __ | |_   _(_)_ __ ___     ~
->   | '__/ _ \ '_ \| \ \ / / | '_ ` _ \    ~
->   | | |  __/ |_) | |\ V /| | | | | | |   ~
->   |_|  \___| .__/|_(_)_/ |_|_| |_| |_|   ~
->            |_|                           ~
+                    _       _              ~
+     _ __ ___ _ __ | |_   _(_)_ __ ___     ~
+    | '__/ _ \ '_ \| \ \ / / | '_ ` _ \    ~
+    | | |  __/ |_) | |\ V /| | | | | | |   ~
+    |_|  \___| .__/|_(_)_/ |_|_| |_| |_|   ~
+             |_|                           ~
 
 ### Dependencies
 > *repl-dependencies*
@@ -73,5 +73,6 @@ is not defined.
 
 ### About
 > *repl-about*
+
 Inspired by `https://github.com/karoliskoncevicius/vim-sendtowindow`.
 
