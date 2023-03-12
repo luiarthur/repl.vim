@@ -1,13 +1,13 @@
-plugin_name = repl
+doc_fname = repl.txt
+readme = README.md
 
 all: docs
 
-docs: doc/$(plugin_name).txt
+docs: doc/$(doc_fname) doc/tags
 
-doc/$(plugin_name).txt: README.md
-	@mkdir -p doc
-	@cp README.md doc/$(plugin_name).txt
+doc/$(doc_fname) doc/tags: $(readme)
+	@cp $(readme) doc/$(doc_fname)
 	@vim -c 'helptags doc | q'
 
 clean:
-	rm -f doc/tags
+	rm -f doc/*
