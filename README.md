@@ -5,22 +5,25 @@
     |_|  \___| .__/|_(_)_/ |_|_| |_| |_|   ~
              |_|                           ~
 
-*repl.vim*  
-Launching REPL from (Neo)VIM.
+> *repl.vim*
+- Launching REPL from (Neo)VIM.
 
 
-### Dependencies - *repl-dependencies*
+### Dependencies
+> *repl-dependencies*
 
 - NeoVIM >= 0.5 or VIM >= 8.2
 
-### Installation - *repl-installation*
+### Installation
+> *repl-installation*
 
 If using the `plug.vim` plugin manager, add `Plug luiarthur/repl.vim` to the
 correct location. Similar for other vim plugin managers. If not using a plugin
 manager, just copy `plugin/repl.vim` to `~/.vim/plugin/` (for vim users). If
 using NeoVIM, a plugin manager is recommended.
 
-### Usage - *repl-usage*
+### Usage
+> *repl-usage*
 
 1. Open a file in Neo(VIM).
 2. In `Normal` mode, type `Ctrl-k`. If the file extension is of a supported
@@ -28,7 +31,8 @@ using NeoVIM, a plugin manager is recommended.
    buffer in the lower region of the current tab.
 3. Navigation (see below)
 
-### Navigation - *repl-nav*
+### Navigation
+> *repl-nav*
 
 From a (Neo)VIM buffer (file), you can do the following in `Normal` mode.
 
@@ -60,13 +64,15 @@ Default key bindings will be used if either `let g:repl_default_key_bindings = 1
 is defined in `init.vim`/`vimrc` (NeoVIM/VIM) OR `g:repl_default_key_bindings`
 is not defined.
 
-### Supported Languages - *repl-languages*
+### Supported Languages
+> *repl-languages*
 
 - Julia (`*.jl`)
 - Python (`*.py`)
 - R (`*.R`)
 
-### About - *repl-about*
+### About
+> *repl-about*
 
 Inspired by `https://github.com/karoliskoncevicius/vim-sendtowindow`.
 
